@@ -16,7 +16,7 @@ class Search:
         self.readPeriodic()
 
     def readBook(self):
-        f = open("book.txt")
+        f = open('data/book.txt')
         line = f.readline()
         self.stack = []
         while line:
@@ -38,7 +38,7 @@ class Search:
 
 
     def readFilm(self):
-        f = open("film.txt")
+        f = open('data/film.txt')
         line = f.readline()
         while line:
             #print line
@@ -55,7 +55,7 @@ class Search:
             line = f.readline()
 
     def readVideo(self):
-        f = open("video.txt")
+        f = open('data/video.txt')
         line = f.readline()
         while line:
             #print line
@@ -74,7 +74,7 @@ class Search:
             line = f.readline()
 
     def readPeriodic(self):
-        f = open("periodic.txt")
+        f = open('data/periodic.txt')
         line = f.readline()
         while line:
             #print line
